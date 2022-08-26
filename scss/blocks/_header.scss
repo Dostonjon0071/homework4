@@ -1,0 +1,120 @@
+.header{
+    width: 1544px;
+    height: 644px;
+    border: 1px solid;
+    display: flexbox;
+    background-color: #163A24;
+ 
+    
+}
+.container{
+ width: 1180px;
+ height: 58px;
+//  border: 1px solid;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ justify-content: space-between;
+ position: relative;
+ background-color: #163A24;
+ 
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #163A24;
+    &__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        height: 27px;
+        left: 50%;
+        right: 0%;
+        top: 15.5px;
+        color: white;
+        &__item{
+            display: flex;
+            align-items:flex-end ;
+        }
+        
+        
+    }
+    &__img{
+        position: absolute;
+        height: 58px;
+        left: 0%;
+        right: 87.03%;
+        top: 0px;
+    }
+    &__link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 141px;
+        height: 52px;
+        border: 1px solid #163A24;;
+        background-color: #198C36;
+       padding: 15px 26px;
+       border-radius: 30px;
+       color: #FBFAF7;
+    }
+}
+.header__page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    width: 1440px;
+    height: 544px;
+    color: white;
+    position: relative;
+
+ 
+    &__page__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__page__img{
+        position: absolute;
+       
+        height: 580px;
+        left: 41.69%;
+        right: -4.24%;
+        top: -250px;
+        gap: 101px;
+    }
+    &__page__title{
+        height: 196px;
+left: 0%;
+right: 20.47%;
+top: 0px;
+
+font-family: 'Recoleta';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 65px;
+        // width: 391px;
+        // height: 196px;
+        // border: 1px solid;
+        // font-size: 48px;
+        // display: flex;
+
+    }
+    &__page__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 475px;
+        height: 81px;
+
+        gap: 18px;
+    }
+}
