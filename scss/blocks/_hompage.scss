@@ -59,12 +59,8 @@
         display: block;
         padding: 27px;
     }
-    .partner__container{
-        display: inline-block;
-        width: 1180px;
-        height: 284px;
-        border: 1px solid;
-    }
+
+   
     .partner{
         display: flex;
         justify-content: center;
@@ -88,4 +84,7 @@
     &__list{
         display: flex;
     }
+}
+.partner__item{
+    display: flex;
 }
