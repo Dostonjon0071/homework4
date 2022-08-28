@@ -2,12 +2,13 @@
     display: block;
     width: 1440px;
     height: 568px;
-    border: 1px solid;
     background-color: #163A24;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
     color: white;
+    text-decoration: none;
+    
     &__title{
         display: block;
         font-weight: 600;
@@ -18,25 +19,14 @@
         padding:66px 297px 448px 320px;
 
     }
-    &__item{
-        width: 295px;
-        height: 302px;
-        // border: 1px solid;
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-around;
-        gap: 15px;
-        
-        
-    }
     &__list{
         position: absolute;
-         height: 254px;
-         left: 25%;
-         right: 9.03%;
-         top: 2042px;
-         gap: 15px;
-
+        left: 15%;
+        top: 2022;
+       
+        
+        
     }
+
+ 
 }
